@@ -15,7 +15,7 @@ def encrypt(t, s,d):
             new_str = alphabet[new1]
             blank += new_str
         else:
-            blank+=i
+            pass
     print(f"encrypted msg {blank}")
 condition = True
 while condition:
